@@ -1,0 +1,13 @@
+FROM node:20.1.0-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install -g npm@9.6.6
+
+COPY . .
+
+RUN npm run build
+
+CMD ["npm", "start"]
