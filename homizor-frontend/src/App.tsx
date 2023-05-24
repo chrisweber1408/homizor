@@ -1,8 +1,24 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { countPlus, getNumber } from './apiService';
+import { useCallback, useState } from 'react';
 
 function App() {
+
+  const [myNumber, setMyNumber] = useState(0)
+
+  const fetchNumber = useCallback(()=>{
+    getNumber()
+          .then(response => response.data)
+          .then(data => {
+            setMyNumber(3)
+          })
+  },[])
+
+  function countPlusNumber(){
+    countPlus()
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,14 +26,9 @@ function App() {
         <p>
           I am super!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <button onClick={fetchNumber}>Get count</button>
+        <div>{myNumber} test</div>
+        <button onClick={countPlusNumber}>Count</button>
       </header>
     </div>
   );

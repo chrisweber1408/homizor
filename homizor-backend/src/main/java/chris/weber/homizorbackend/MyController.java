@@ -1,19 +1,28 @@
 package chris.weber.homizorbackend;
 
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lombok.RequiredArgsConstructor;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/number")
+@RequestMapping("/api/")
+@RequiredArgsConstructor
 public class MyController {
 
-    private MyService myService;
+    private final MyService myService;
 
     @PutMapping("/add/{number}")
     public void addANumber(@PathVariable Integer number){
         myService.addANumber(number);
+    }
+
+    @PatchMapping("/count")
+    public void countNumberPlus(){
+        myService.countNumberPlus();
+    }
+
+    @GetMapping("/get")
+    public MyNumber getNumber(){
+        return myService.getNumber();
     }
 
 }
