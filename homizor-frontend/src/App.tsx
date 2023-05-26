@@ -11,12 +11,13 @@ function App() {
     getNumber()
           .then(response => response.data)
           .then(data => {
-            setMyNumber(3)
+            setMyNumber(data.number)
           })
-  },[])
+  },[myNumber])
 
   function countPlusNumber(){
     countPlus()
+    .then(() => fetchNumber())
   }
 
   return (
@@ -26,8 +27,7 @@ function App() {
         <p>
           I am super!
         </p>
-        <button onClick={fetchNumber}>Get count</button>
-        <div>{myNumber} test</div>
+        <div>{myNumber}</div>
         <button onClick={countPlusNumber}>Count</button>
       </header>
     </div>
