@@ -1,0 +1,14 @@
+
+
+.bottom-navigation{
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    color: rgb(240, 240, 240);
+    text-shadow: rgb(119, 0, 0) 0.2em 0.2em 0.2em;
+    background: #0A6EA4;
+    background: -moz-linear-gradient(top, #2F2B5E 0%, #364FBE 50%, #0A6EA4 100%);
+    background: -webkit-linear-gradient(top, #2F2B5E 0%, #364FBE 50%, #0A6EA4 100%);
+    background: linear-gradient(to bottom, #2F2B5E 0%, #364FBE 50%, #0A6EA4 100%);  
+}

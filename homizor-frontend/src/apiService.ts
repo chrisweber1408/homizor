@@ -1,9 +1,11 @@
-import axios from "axios"
+import axios, { AxiosResponse } from "axios"
+import { Article } from "./modules"
 
-export function countPlus(){
-    return axios.patch("/api/count")
+export function getAllArticle(){
+    return axios.get("/api/article/getAll")
+        .then((response: AxiosResponse<Array<Article>>) => response.data)
 }
 
-export function getNumber(){
-    return axios.get("/api/get")
+export function addArticle(article: Article){
+    return axios.post("/api/article/add", article)
 }

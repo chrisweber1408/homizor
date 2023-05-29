@@ -10,9 +10,8 @@ import java.util.List;
 public class ArticleService {
 
     private final ArticleRepo articleRepo;
-    public void addAnArticle(String nameOfArticle) {
-        Article newArticle = new Article(nameOfArticle);
-        articleRepo.save(newArticle);
+    public void addAnArticle(Article article) {
+        articleRepo.save(article);
     }
 
     public Article getAnArticle(String id) {
