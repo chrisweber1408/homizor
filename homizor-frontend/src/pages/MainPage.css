@@ -1,0 +1,15 @@
+
+
+.main-color{
+    display: flex;
+    background-color: #2F2B5E;
+    margin-top: 86px;
+}
+
+.main-input{
+    align-content: center;
+}
+
+.main-button{
+    align-content: center;
+}

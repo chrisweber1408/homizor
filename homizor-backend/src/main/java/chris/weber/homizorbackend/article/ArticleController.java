@@ -12,9 +12,9 @@ public class ArticleController {
 
     private final ArticleService articleService;
 
-    @PostMapping("/add/{nameOfArticle}")
-    public void addAnArticle(@PathVariable String nameOfArticle){
-        articleService.addAnArticle(nameOfArticle);
+    @PostMapping("/add")
+    public void addAnArticle(@RequestBody Article article){
+        articleService.addAnArticle(article);
     }
 
     @GetMapping("/get/{id}")

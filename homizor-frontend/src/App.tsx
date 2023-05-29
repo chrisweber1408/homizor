@@ -1,36 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import { countPlus, getNumber } from './apiService';
-import { useCallback, useState } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Mainpage from "./pages/MainPage";
+import BottomNavigationBar from "./componets/BottomNavigation/BottomNavigationBar";
+import Header from "./componets/Header/Header";
 
 function App() {
 
-  const [myNumber, setMyNumber] = useState(0)
-
-  const fetchNumber = useCallback(()=>{
-    getNumber()
-          .then(response => response.data)
-          .then(data => {
-            setMyNumber(data.number)
-          })
-  },[myNumber])
-
-  function countPlusNumber(){
-    countPlus()
-    .then(() => fetchNumber())
-  }
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I am super!
-        </p>
-        <div>{myNumber}</div>
-        <button onClick={countPlusNumber}>Count</button>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header/>
+        <Routes>
+          <Route path="/" element={<Mainpage/>}/>
+        </Routes>
+      <BottomNavigationBar/>
+    </BrowserRouter>
   );
 }
 
