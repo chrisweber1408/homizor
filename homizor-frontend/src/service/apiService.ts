@@ -9,3 +9,7 @@ export function getAllArticle(){
 export function addArticle(article: Article){
     return axios.post("/api/article/add", article)
 }
+
+export function deleteArticle(articleId: string){
+    return axios.delete("/api/article/delete/" + articleId)
+}

@@ -1,0 +1,46 @@
+
+
+.background{
+    width: 250px;
+    height: 80px;
+    margin: 5px;
+    border: 5px solid black;
+    border-radius: 30px;
+
+}
+
+.name{
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+}
+
+.select{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteButton{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #c03e3e;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }

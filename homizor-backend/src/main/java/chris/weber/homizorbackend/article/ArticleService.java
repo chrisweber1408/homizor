@@ -21,4 +21,8 @@ public class ArticleService {
     public List<Article> getAllArticle() {
         return articleRepo.findAll();
     }
+
+    public void deleteArticle(String id) {
+        articleRepo.deleteById(id);
+    }
 }
