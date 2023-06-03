@@ -27,4 +27,9 @@ public class ArticleController {
         return articleService.getAllArticle();
     }
 
+    @DeleteMapping("/delete/{id}")
+    public void deleteArticle(@PathVariable String id){
+        articleService.deleteArticle(id);
+    }
+
 }

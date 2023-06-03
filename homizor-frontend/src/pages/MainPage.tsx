@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import { Article } from "../modules"
-import { addArticle, getAllArticle } from "../apiService"
-import ArticleGallery from "../componets/ArticleGallery"
-import Header from "../componets/Header/Header"
+import { Article } from "../service/modules"
+import { addArticle, getAllArticle } from "../service/apiService"
+import ArticleTile from "../componets/ArticleTile/ArticleTile"
+
 import './MainPage.css'
 
 
@@ -25,8 +25,8 @@ export default function Mainpage(){
     const searchArticles = articles.sort((a,b) => a.name.localeCompare(b.name))
         .filter(g => g.name.toLowerCase().includes(article.toLowerCase()))
         .map(search => 
-        <div key={search.id}  style={{margin: '5px', border: '10px solid black'}}>
-            <div><ArticleGallery article={search}/></div>
+        <div key={search.id}>
+            <div><ArticleTile article={search}/></div>
         </div>)
 
 
