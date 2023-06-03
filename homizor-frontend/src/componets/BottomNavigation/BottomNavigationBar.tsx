@@ -1,6 +1,7 @@
 import React from 'react';
 import { BottomNavigation, BottomNavigationAction } from '@mui/material';
 import { useNavigate, useLocation } from 'react-router-dom';
+import HomeIcon from '@mui/icons-material//Home';
 import "./BottomNavigationBar.css"
 
 const BottomNavigationBar: React.FC = () => {
@@ -18,7 +19,7 @@ const BottomNavigationBar: React.FC = () => {
       showLabels
       className='bottom-navigation'
     >
-      <BottomNavigationAction label="Startseite" value="/" />
+      <BottomNavigationAction style={{ color: 'black', border: '1px'}} label="Startseite" value="/" icon={<HomeIcon style={{color: 'black'}}/>} />
       <BottomNavigationAction label="Einstellungen" value="/settings" />
     </BottomNavigation>
   );

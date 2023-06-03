@@ -31,12 +31,12 @@ export default function Mainpage(){
 
 
     return(
-        <div className="main-color">
+        <div className="entrys">
             <div>
-                <div className="main-input"><input type='text' value={article} onChange={event => setArticle(event.target.value)} placeholder='Article to add!'></input></div>
+                <div><input type='text' value={article} onChange={event => setArticle(event.target.value)} placeholder='Article to add!'></input></div>
             </div>
             <div>
-                <div className="main-button"><button onClick={saveArticle}>Add Article</button></div>
+                <div><button onClick={saveArticle}>Add Article</button></div>
             </div>
             <div>
                 {searchArticles}
