@@ -1,28 +1,25 @@
-import React from 'react';
-import { BottomNavigation, BottomNavigationAction } from '@mui/material';
-import { useNavigate, useLocation } from 'react-router-dom';
-import HomeIcon from '@mui/icons-material//Home';
-import "./BottomNavigationBar.css"
+import { useNavigate } from "react-router"
+import HomeIcon from '@mui/icons-material/Home';
+import './BottomNavigationBar.css'
 
-const BottomNavigationBar: React.FC = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
 
-  const handleChange = (event: React.SyntheticEvent, newPath: string) => {
-    navigate(newPath);
-  };
+export default function(){
 
-  return (
-    <BottomNavigation
-      value={location.pathname}
-      onChange={handleChange}
-      showLabels
-      className='bottom-navigation'
-    >
-      <BottomNavigationAction style={{ color: 'black', border: '1px'}} label="Startseite" value="/" icon={<HomeIcon style={{color: 'black'}}/>} />
-      <BottomNavigationAction label="Einstellungen" value="/settings" />
-    </BottomNavigation>
-  );
-};
+  const nav = useNavigate()
 
-export default BottomNavigationBar;
+  return(
+    <div className="navBarContainer">
+      <div></div>
+      <div className="icons" onClick={()=> nav("/")}>
+        <HomeIcon/>
+      </div>
+      <div className="icons">
+        <HomeIcon/>
+      </div>
+      <div className="icons">
+        <HomeIcon/>
+      </div>
+      <div></div>
+    </div>
+  )
+}

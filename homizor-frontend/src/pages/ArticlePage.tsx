@@ -3,7 +3,7 @@ import { Article } from "../service/modules"
 import { addArticle, getAllArticle } from "../service/apiService"
 import ArticleTile from "../componets/ArticleTile/ArticleTile"
 
-import './MainPage.css'
+import './Article.css'
 
 
 export default function Mainpage(){
@@ -33,10 +33,20 @@ export default function Mainpage(){
     return(
         <div className="entrys">
             <div>
-                <div><input type='text' value={article} onChange={event => setArticle(event.target.value)} placeholder='Article to add!'></input></div>
+                <div>
+                    <input 
+                        className="addArticleInput"
+                        type='text'
+                        value={article}
+                        onChange={event => setArticle(event.target.value)}
+                        placeholder='Article to add!'>
+                    </input>
+                </div>
             </div>
             <div>
-                <div><button onClick={saveArticle}>Add Article</button></div>
+                <div>
+                    <button className="addArticleButton" onClick={saveArticle}>Add Article</button>
+                </div>
             </div>
             <div>
                 {searchArticles}

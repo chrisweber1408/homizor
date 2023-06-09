@@ -12,14 +12,13 @@ export default function ArticleTile(props: ArticleGalleryProps){
     function deleteOneArticle(id: string | undefined){
         if(id){
             deleteArticle(id)
-                .then(getAllArticle)
         }
     }
 
     return(
         <div className="background">
             <div className="name">{props.article.name}</div>
-            <div className="container">
+            <div className="test">
                 <div className="select">
                     <select name="test" id="123"></select>
                 </div>

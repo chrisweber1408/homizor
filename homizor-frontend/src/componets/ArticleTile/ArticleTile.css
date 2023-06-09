@@ -5,7 +5,7 @@
     height: 80px;
     margin: 5px;
     border: 5px solid black;
-    border-radius: 30px;
+    border-radius: 45px;
 
 }
 
@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.container{
+.test{
     display: flex;
 }
 
