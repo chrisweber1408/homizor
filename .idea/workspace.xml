@@ -5,33 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4efc6a06-94c6-4aaf-9bd8-ff2a7b456ed2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homizor-backend/src/test/java/chris/weber/homizorbackend/article/ArticleServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/homizor-backend.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/homizor-backend.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa4d8c878787f17a9875ae436465ab4c6175f25e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1c5ebce41252ac764de4558bc472acb06f13a73" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e433e53af8fbc7b0a62e1bfea94e2930be9546b2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e86c0f6dae27a03142640d2c05ed653995217c42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/a/aa4d8c878787f17a9875ae436465ab4c6175f25e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/1/d1c5ebce41252ac764de4558bc472acb06f13a73" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/4/e433e53af8fbc7b0a62e1bfea94e2930be9546b2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/8/e86c0f6dae27a03142640d2c05ed653995217c42" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.css" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/BottomNavigation/BottomNavigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/BottomNavigation/BottomNavigationBar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/BottomNavigation/BottomNavigationBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/BottomNavigation/BottomNavigationBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/pages/MainPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/pages/MainPage.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +32,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,16 +46,30 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QvLoo44EKswgzJAgMG7OFAvp0Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="chris.weber.homizorbackend.article" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ArticleServiceTest.addAnArticle">
     <configuration name="HomizorBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chris.weber.homizorbackend.HomizorBackendApplication" />
       <module name="homizor-backend.main" />
@@ -85,8 +83,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArticleServiceTest.addAnArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/homizor-backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chris.weber.homizorbackend.article.ArticleServiceTest.addAnArticle&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ArticleServiceTest.addAnArticle" />
         <item itemvalue="Application.HomizorBackendApplication" />
       </list>
     </recent_temporary>

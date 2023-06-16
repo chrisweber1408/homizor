@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router"
 import HomeIcon from '@mui/icons-material/Home';
+import StorageIcon from '@mui/icons-material/Storage';
+import BookIcon from '@mui/icons-material/Book';
 import './BottomNavigationBar.css'
 
 
@@ -14,10 +16,10 @@ export default function(){
         <HomeIcon/>
       </div>
       <div className="icons">
-        <HomeIcon/>
+        <BookIcon/>
       </div>
       <div className="icons">
-        <HomeIcon/>
+        <StorageIcon/>
       </div>
       <div></div>
     </div>
