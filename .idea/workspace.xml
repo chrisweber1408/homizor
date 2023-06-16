@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4efc6a06-94c6-4aaf-9bd8-ff2a7b456ed2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/homizor-backend/src/test/java/chris/weber/homizorbackend/article/ArticleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-backend/src/test/java/chris/weber/homizorbackend/article/ArticleServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homizor-backend/src/test/java/chris/weber/homizorbackend/Storage/StorageServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/homizor-backend">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -50,23 +56,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="chris.weber.homizorbackend.Storage" />
       <recent name="chris.weber.homizorbackend.article" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ArticleServiceTest.deleteArticle">
+  <component name="RunManager" selected="Gradle.StorageServiceTest.getAllStorages">
     <configuration name="HomizorBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chris.weber.homizorbackend.HomizorBackendApplication" />
       <module name="homizor-backend.main" />
@@ -79,30 +86,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="ArticleServiceTest.addAnArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/homizor-backend" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;chris.weber.homizorbackend.article.ArticleServiceTest.addAnArticle&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
     </configuration>
     <configuration name="ArticleServiceTest.deleteArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -128,7 +111,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ArticleServiceTest.getAllArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StorageServiceTest.addAStorage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/homizor-backend" />
@@ -141,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;chris.weber.homizorbackend.article.ArticleServiceTest.getAllArticle&quot;" />
+            <option value="&quot;chris.weber.homizorbackend.Storage.StorageServiceTest.addAStorage&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -152,7 +135,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ArticleServiceTest.getAnArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StorageServiceTest.getAStorage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/homizor-backend" />
@@ -165,7 +148,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;chris.weber.homizorbackend.article.ArticleServiceTest.getAnArticle&quot;" />
+            <option value="&quot;chris.weber.homizorbackend.Storage.StorageServiceTest.getAStorage&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="StorageServiceTest.getAllStorages" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/homizor-backend" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;chris.weber.homizorbackend.Storage.StorageServiceTest.getAllStorages&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ArticleServiceTest.deleteArticle" />
-        <item itemvalue="Gradle.ArticleServiceTest.getAllArticle" />
-        <item itemvalue="Gradle.ArticleServiceTest.getAnArticle" />
-        <item itemvalue="Gradle.ArticleServiceTest.addAnArticle" />
+        <item itemvalue="Gradle.StorageServiceTest.getAllStorages" />
+        <item itemvalue="Gradle.StorageServiceTest.getAStorage" />
         <item itemvalue="Application.HomizorBackendApplication" />
+        <item itemvalue="Gradle.StorageServiceTest.addAStorage" />
+        <item itemvalue="Gradle.ArticleServiceTest.deleteArticle" />
       </list>
     </recent_temporary>
   </component>

@@ -12,9 +12,9 @@ public class StorageController {
 
     private final StorageService storageService;
 
-    @PostMapping("/add/{storageName}")
-    public void addAStorage(@PathVariable String storageName){
-        storageService.addAStorage(storageName);
+    @PostMapping("/add")
+    public void addAStorage(@RequestBody Storage storage){
+        storageService.addAStorage(storage);
     }
 
     @GetMapping("/get/{storageId}")
