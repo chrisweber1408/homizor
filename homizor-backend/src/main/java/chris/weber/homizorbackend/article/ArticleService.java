@@ -15,7 +15,7 @@ public class ArticleService {
     }
 
     public Article getAnArticle(String id) {
-        return articleRepo.findById(id).orElseThrow();
+            return articleRepo.findById(id).orElseThrow();
     }
 
     public List<Article> getAllArticle() {
