@@ -14,8 +14,7 @@ public class StorageService {
     private final StorageRepo storageRepo;
     private final ArticleRepo articleRepo;
 
-    public void addAStorage(String storageName) {
-        Storage storage = new Storage(storageName);
+    public void addAStorage(Storage storage) {
         storageRepo.save(storage);
     }
 
