@@ -52,7 +52,12 @@ class ArticleServiceTest {
     @Test
     void deleteArticle() {
         //given
+        Article article = new Article("TestArticle");
+        ArticleRepo articleRepo = mock(ArticleRepo.class);
+        ArticleService articleService = new ArticleService(articleRepo);
         //when
+        articleService.deleteArticle(article.getId());
         //then
+        verify(articleRepo).deleteById(article.getId());
     }
 }
