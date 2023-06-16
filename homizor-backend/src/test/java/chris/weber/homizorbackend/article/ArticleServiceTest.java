@@ -2,6 +2,7 @@ package chris.weber.homizorbackend.article;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
 import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.*;
@@ -36,9 +37,22 @@ class ArticleServiceTest {
 
     @Test
     void getAllArticle() {
+        //given
+        Article article1 = new Article("TestArticle1");
+        Article article2 = new Article("TestArticle2");
+        ArticleRepo articleRepo = mock(ArticleRepo.class);
+        ArticleService articleService = new ArticleService(articleRepo);
+        when(articleRepo.findAll()).thenReturn(List.of(article1, article2));
+        //when
+        List<Article> result = articleService.getAllArticle();
+        //then
+        assertThat(result.size()).isEqualTo(2);
     }
 
     @Test
     void deleteArticle() {
+        //given
+        //when
+        //then
     }
 }

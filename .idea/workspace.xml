@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4efc6a06-94c6-4aaf-9bd8-ff2a7b456ed2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/homizor-backend/src/test/java/chris/weber/homizorbackend/article/ArticleServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-backend/src/test/java/chris/weber/homizorbackend/article/ArticleServiceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4efc6a06-94c6-4aaf-9bd8-ff2a7b456ed2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
