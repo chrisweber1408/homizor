@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
-import { Article } from "../service/modules"
-import { addArticle, getAllArticle } from "../service/apiService"
-import ArticleTile from "../componets/ArticleTile/ArticleTile"
+import { Article } from "../../service/modules"
+import { addArticle, getAllArticle } from "../../service/apiService"
+import ArticleTile from "../../componets/ArticleTile/ArticleTile"
 
-import './Article.css'
+import './ArticlePage.css'
 
 
 export default function Mainpage(){

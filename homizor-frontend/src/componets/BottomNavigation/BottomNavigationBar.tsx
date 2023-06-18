@@ -15,7 +15,7 @@ export default function(){
       <div className="icons" onClick={()=> nav("/")}>
         <HomeIcon/>
       </div>
-      <div className="icons">
+      <div className="icons" onClick={()=> nav("/storagepage")}>
         <BookIcon/>
       </div>
       <div className="icons">
