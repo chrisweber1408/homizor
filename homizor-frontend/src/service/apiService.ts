@@ -31,3 +31,7 @@ export function addStorage(storage: Storage){
 export function deleteStorage(storageId: string){
     return axios.delete("/api/storage/delete/" + storageId)
 }
+
+export function getOneStorageToEdit(id: string){
+    return axios.get("/api/storage/get/{id}")
+}

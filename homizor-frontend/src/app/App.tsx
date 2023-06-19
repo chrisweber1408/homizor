@@ -4,6 +4,7 @@ import BottomNavigationBar from "../componets/BottomNavigation/BottomNavigationB
 import Header from "../componets/Header/Header";
 import './App.css'
 import StoragePage from "../pages/StoragePage/StoragePage";
+import StorageEditPage from "../componets/Storage/StorageEdit/StorageEditPage";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<ArticlePage/>}/>
             <Route path="/storagepage" element={<StoragePage/>}/>
+            <Route path="/edit/:id" element={<StorageEditPage/>}/>
           </Routes>
         </div>
         <div className="bottomNavigationBar">
