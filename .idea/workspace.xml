@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4efc6a06-94c6-4aaf-9bd8-ff2a7b456ed2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homizor-backend/src/test/java/chris/weber/homizorbackend/Storage/StorageServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/Storage/StorageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/article/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-backend/src/main/java/chris/weber/homizorbackend/article/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.css" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/ArticleTile/ArticleTile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/componets/BottomNavigation/BottomNavigationBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/componets/BottomNavigation/BottomNavigationBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/pages/Article.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/pages/ArticlePage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/service/apiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/service/apiService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homizor-frontend/src/service/modules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homizor-frontend/src/service/modules.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +80,7 @@
       <recent name="chris.weber.homizorbackend.article" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.StorageServiceTest.getAllStorages">
+  <component name="RunManager" selected="Application.HomizorBackendApplication">
     <configuration name="HomizorBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chris.weber.homizorbackend.HomizorBackendApplication" />
       <module name="homizor-backend.main" />

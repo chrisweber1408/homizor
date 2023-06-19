@@ -9,6 +9,9 @@ interface ArticleGalleryProps{
 
 export default function ArticleTile(props: ArticleGalleryProps){
 
+
+    //todo
+
     function deleteOneArticle(id: string | undefined){
         if(id){
             deleteArticle(id)
@@ -16,16 +19,8 @@ export default function ArticleTile(props: ArticleGalleryProps){
     }
 
     return(
-        <div className="background">
-            <div className="name">{props.article.name}</div>
-            <div className="test">
-                <div className="select">
-                    <select name="test" id="123"></select>
-                </div>
-                <div className="deleteButton">
-                    <button className="button" onClick={()=> deleteOneArticle(props.article.id)}>Delete</button>
-                </div>
-            </div>
+        <div className="backgroundArticle">
+            <div className="nameArticle">{props.article.name}</div>
         </div>
     )
 }
